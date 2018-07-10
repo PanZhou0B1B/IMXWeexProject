@@ -9,5 +9,15 @@
 #import "IMXTransInfoModule.h"
 
 @implementation IMXTransInfoModule
+@synthesize weexInstance;
 
+WX_EXPORT_METHOD(@selector(printInfo:))
+WX_EXPORT_METHOD_SYNC(@selector(printInfoSync:))
+
+- (void)printInfo:(NSString *)info{
+    NSLog(@"%@",info);
+}
+- (void)printInfoSync:(NSString *)info{
+    NSLog(@"%@",info);
+}
 @end

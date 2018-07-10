@@ -16,6 +16,8 @@ IMX_EXPORT_SERVICE(@"IMX_weexinit")
     
     [IMXWeexManager registWeex];
     
+    [IMXWeexManager registCustomModule:@"IMXTransInfoModule"];
+    [IMXWeexManager registCustomComponent:@"IMXCustomComponent"];
     return YES;
 }
 @end

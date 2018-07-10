@@ -10,4 +10,7 @@
 
 @interface IMXWeexManager : NSObject
 + (void)registWeex;
++ (void)registCustomModule:(NSString *)moduleName;
++ (void)registCustomComponent:(NSString *)cptName;
++ (void)registCustomHandler:(NSString *)handlerName protocol:(Protocol *)proto;
 @end

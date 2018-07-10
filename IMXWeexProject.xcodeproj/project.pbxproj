@@ -20,6 +20,7 @@
 		A10D6E4620D136F900ACFFBC /* IMXWeexInitAPPService.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D6E4520D136F900ACFFBC /* IMXWeexInitAPPService.m */; };
 		A10D6E4F20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D6E4D20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.m */; };
 		A151290520F487C900F8706F /* IMXTransInfoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A151290420F487C900F8706F /* IMXTransInfoModule.m */; };
+		A151290920F4962200F8706F /* IMXCustomComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A151290820F4962200F8706F /* IMXCustomComponent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		A10D6E4E20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderDefaultImpl.h; sourceTree = "<group>"; };
 		A151290320F487C900F8706F /* IMXTransInfoModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXTransInfoModule.h; sourceTree = "<group>"; };
 		A151290420F487C900F8706F /* IMXTransInfoModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXTransInfoModule.m; sourceTree = "<group>"; };
+		A151290720F4962200F8706F /* IMXCustomComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXCustomComponent.h; sourceTree = "<group>"; };
+		A151290820F4962200F8706F /* IMXCustomComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXCustomComponent.m; sourceTree = "<group>"; };
 		C5A89BAD9B7EDB38273A5D84 /* Pods-IMXWeexProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMXWeexProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMXWeexProject/Pods-IMXWeexProject.release.xcconfig"; sourceTree = "<group>"; };
 		DFC878DFB6A6FE928B1200BA /* Pods-IMXWeexProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMXWeexProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMXWeexProject/Pods-IMXWeexProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +123,7 @@
 		A10D6E2F20D105D800ACFFBC /* Weex */ = {
 			isa = PBXGroup;
 			children = (
+				A151290620F4951D00F8706F /* Component */,
 				A151290220F487A400F8706F /* Module */,
 				A10D6E4C20D1FA5300ACFFBC /* Handle */,
 				A10D6E3020D1060600ACFFBC /* IMXWeexManager.h */,
@@ -156,6 +160,15 @@
 				A151290420F487C900F8706F /* IMXTransInfoModule.m */,
 			);
 			path = Module;
+			sourceTree = "<group>";
+		};
+		A151290620F4951D00F8706F /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				A151290720F4962200F8706F /* IMXCustomComponent.h */,
+				A151290820F4962200F8706F /* IMXCustomComponent.m */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 		B5CF73C1D064848626EABE11 /* Pods */ = {
@@ -307,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10D6E2720D0EF6C00ACFFBC /* IMXWBaseViewController.m in Sources */,
+				A151290920F4962200F8706F /* IMXCustomComponent.m in Sources */,
 				A10D6E2D20D0EFC000ACFFBC /* IMXWRootUIAPPService.m in Sources */,
 				A10D6E1D20D0ED0500ACFFBC /* main.m in Sources */,
 				A10D6E3520D1081E00ACFFBC /* IMXWeexBaseViewController.m in Sources */,
