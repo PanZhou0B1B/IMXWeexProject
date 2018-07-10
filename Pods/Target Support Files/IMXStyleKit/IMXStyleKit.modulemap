@@ -1,0 +1,6 @@
+framework module IMXStyleKit {
+  umbrella header "IMXStyleKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

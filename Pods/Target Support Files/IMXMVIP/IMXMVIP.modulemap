@@ -1,0 +1,6 @@
+framework module IMXMVIP {
+  umbrella header "IMXMVIP-umbrella.h"
+
+  export *
+  module * { export * }
+}

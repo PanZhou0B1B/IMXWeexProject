@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45A725E8A0161BFF2257E767 /* Pods_IMXWeexProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE93910685F3F97FD220C29 /* Pods_IMXWeexProject.framework */; };
+		A10D6E1720D0ED0500ACFFBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10D6E1620D0ED0500ACFFBC /* Assets.xcassets */; };
+		A10D6E1A20D0ED0500ACFFBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10D6E1820D0ED0500ACFFBC /* LaunchScreen.storyboard */; };
+		A10D6E1D20D0ED0500ACFFBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D6E1C20D0ED0500ACFFBC /* main.m */; };
+		A10D6E2720D0EF6C00ACFFBC /* IMXWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D6E2620D0EF6C00ACFFBC /* IMXWBaseViewController.m */; };
+		A10D6E2A20D0EF9200ACFFBC /* IMXWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D6E2920D0EF9200ACFFBC /* IMXWRootViewController.m */; };
+		A10D6E2D20D0EFC000ACFFBC /* IMXWRootUIAPPService.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D6E2C20D0EFC000ACFFBC /* IMXWRootUIAPPService.m */; };
+		A10D6E3220D1060600ACFFBC /* IMXWeexManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D6E3120D1060600ACFFBC /* IMXWeexManager.m */; };
+		A10D6E3520D1081E00ACFFBC /* IMXWeexBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D6E3420D1081E00ACFFBC /* IMXWeexBaseViewController.m */; };
+		A10D6E4320D1341600ACFFBC /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = A10D6E4220D1341600ACFFBC /* index.js */; };
+		A10D6E4620D136F900ACFFBC /* IMXWeexInitAPPService.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D6E4520D136F900ACFFBC /* IMXWeexInitAPPService.m */; };
+		A10D6E4F20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D6E4D20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.m */; };
+		A151290520F487C900F8706F /* IMXTransInfoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A151290420F487C900F8706F /* IMXTransInfoModule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AE93910685F3F97FD220C29 /* Pods_IMXWeexProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMXWeexProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10D6E0A20D0ED0300ACFFBC /* IMXWeexProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMXWeexProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10D6E1620D0ED0500ACFFBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10D6E1920D0ED0500ACFFBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A10D6E1B20D0ED0500ACFFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10D6E1C20D0ED0500ACFFBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A10D6E2320D0ED6A00ACFFBC /* IMXWeexProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMXWeexProject-Prefix.pch"; sourceTree = "<group>"; };
+		A10D6E2520D0EF6C00ACFFBC /* IMXWBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXWBaseViewController.h; sourceTree = "<group>"; };
+		A10D6E2620D0EF6C00ACFFBC /* IMXWBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXWBaseViewController.m; sourceTree = "<group>"; };
+		A10D6E2820D0EF9200ACFFBC /* IMXWRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXWRootViewController.h; sourceTree = "<group>"; };
+		A10D6E2920D0EF9200ACFFBC /* IMXWRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXWRootViewController.m; sourceTree = "<group>"; };
+		A10D6E2B20D0EFC000ACFFBC /* IMXWRootUIAPPService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXWRootUIAPPService.h; sourceTree = "<group>"; };
+		A10D6E2C20D0EFC000ACFFBC /* IMXWRootUIAPPService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXWRootUIAPPService.m; sourceTree = "<group>"; };
+		A10D6E3020D1060600ACFFBC /* IMXWeexManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXWeexManager.h; sourceTree = "<group>"; };
+		A10D6E3120D1060600ACFFBC /* IMXWeexManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXWeexManager.m; sourceTree = "<group>"; };
+		A10D6E3320D1081E00ACFFBC /* IMXWeexBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXWeexBaseViewController.h; sourceTree = "<group>"; };
+		A10D6E3420D1081E00ACFFBC /* IMXWeexBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXWeexBaseViewController.m; sourceTree = "<group>"; };
+		A10D6E4220D1341600ACFFBC /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		A10D6E4420D136F900ACFFBC /* IMXWeexInitAPPService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXWeexInitAPPService.h; sourceTree = "<group>"; };
+		A10D6E4520D136F900ACFFBC /* IMXWeexInitAPPService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXWeexInitAPPService.m; sourceTree = "<group>"; };
+		A10D6E4D20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXImgLoaderDefaultImpl.m; sourceTree = "<group>"; };
+		A10D6E4E20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderDefaultImpl.h; sourceTree = "<group>"; };
+		A151290320F487C900F8706F /* IMXTransInfoModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXTransInfoModule.h; sourceTree = "<group>"; };
+		A151290420F487C900F8706F /* IMXTransInfoModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXTransInfoModule.m; sourceTree = "<group>"; };
+		C5A89BAD9B7EDB38273A5D84 /* Pods-IMXWeexProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMXWeexProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMXWeexProject/Pods-IMXWeexProject.release.xcconfig"; sourceTree = "<group>"; };
+		DFC878DFB6A6FE928B1200BA /* Pods-IMXWeexProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMXWeexProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMXWeexProject/Pods-IMXWeexProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10D6E0720D0ED0300ACFFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A725E8A0161BFF2257E767 /* Pods_IMXWeexProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C7222B19ED6122C6826EA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AE93910685F3F97FD220C29 /* Pods_IMXWeexProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A10D6E0120D0ED0300ACFFBC = {
+			isa = PBXGroup;
+			children = (
+				A10D6E0C20D0ED0300ACFFBC /* IMXWeexProject */,
+				A10D6E0B20D0ED0300ACFFBC /* Products */,
+				B5CF73C1D064848626EABE11 /* Pods */,
+				18C7222B19ED6122C6826EA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A10D6E0B20D0ED0300ACFFBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10D6E0A20D0ED0300ACFFBC /* IMXWeexProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10D6E0C20D0ED0300ACFFBC /* IMXWeexProject */ = {
+			isa = PBXGroup;
+			children = (
+				A10D6E3620D12AFC00ACFFBC /* JSSources */,
+				A10D6E2F20D105D800ACFFBC /* Weex */,
+				A10D6E2420D0EF3300ACFFBC /* Base */,
+				A10D6E1620D0ED0500ACFFBC /* Assets.xcassets */,
+				A10D6E1820D0ED0500ACFFBC /* LaunchScreen.storyboard */,
+				A10D6E1B20D0ED0500ACFFBC /* Info.plist */,
+				A10D6E1C20D0ED0500ACFFBC /* main.m */,
+				A10D6E2320D0ED6A00ACFFBC /* IMXWeexProject-Prefix.pch */,
+				A10D6E2820D0EF9200ACFFBC /* IMXWRootViewController.h */,
+				A10D6E2920D0EF9200ACFFBC /* IMXWRootViewController.m */,
+				A10D6E2B20D0EFC000ACFFBC /* IMXWRootUIAPPService.h */,
+				A10D6E2C20D0EFC000ACFFBC /* IMXWRootUIAPPService.m */,
+			);
+			path = IMXWeexProject;
+			sourceTree = "<group>";
+		};
+		A10D6E2420D0EF3300ACFFBC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A10D6E2520D0EF6C00ACFFBC /* IMXWBaseViewController.h */,
+				A10D6E2620D0EF6C00ACFFBC /* IMXWBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A10D6E2F20D105D800ACFFBC /* Weex */ = {
+			isa = PBXGroup;
+			children = (
+				A151290220F487A400F8706F /* Module */,
+				A10D6E4C20D1FA5300ACFFBC /* Handle */,
+				A10D6E3020D1060600ACFFBC /* IMXWeexManager.h */,
+				A10D6E3120D1060600ACFFBC /* IMXWeexManager.m */,
+				A10D6E3320D1081E00ACFFBC /* IMXWeexBaseViewController.h */,
+				A10D6E3420D1081E00ACFFBC /* IMXWeexBaseViewController.m */,
+				A10D6E4420D136F900ACFFBC /* IMXWeexInitAPPService.h */,
+				A10D6E4520D136F900ACFFBC /* IMXWeexInitAPPService.m */,
+			);
+			path = Weex;
+			sourceTree = "<group>";
+		};
+		A10D6E3620D12AFC00ACFFBC /* JSSources */ = {
+			isa = PBXGroup;
+			children = (
+				A10D6E4220D1341600ACFFBC /* index.js */,
+			);
+			path = JSSources;
+			sourceTree = "<group>";
+		};
+		A10D6E4C20D1FA5300ACFFBC /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+				A10D6E4E20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.h */,
+				A10D6E4D20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.m */,
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		A151290220F487A400F8706F /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A151290320F487C900F8706F /* IMXTransInfoModule.h */,
+				A151290420F487C900F8706F /* IMXTransInfoModule.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		B5CF73C1D064848626EABE11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFC878DFB6A6FE928B1200BA /* Pods-IMXWeexProject.debug.xcconfig */,
+				C5A89BAD9B7EDB38273A5D84 /* Pods-IMXWeexProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10D6E0920D0ED0300ACFFBC /* IMXWeexProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10D6E2020D0ED0500ACFFBC /* Build configuration list for PBXNativeTarget "IMXWeexProject" */;
+			buildPhases = (
+				0DB6529183E3E7DE12431A78 /* [CP] Check Pods Manifest.lock */,
+				A10D6E0620D0ED0300ACFFBC /* Sources */,
+				A10D6E0720D0ED0300ACFFBC /* Frameworks */,
+				A10D6E0820D0ED0300ACFFBC /* Resources */,
+				669D784E874E3892B6298437 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMXWeexProject;
+			productName = IMXWeexProject;
+			productReference = A10D6E0A20D0ED0300ACFFBC /* IMXWeexProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10D6E0220D0ED0300ACFFBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zhoupanpan;
+				TargetAttributes = {
+					A10D6E0920D0ED0300ACFFBC = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = A10D6E0520D0ED0300ACFFBC /* Build configuration list for PBXProject "IMXWeexProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10D6E0120D0ED0300ACFFBC;
+			productRefGroup = A10D6E0B20D0ED0300ACFFBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10D6E0920D0ED0300ACFFBC /* IMXWeexProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10D6E0820D0ED0300ACFFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10D6E4320D1341600ACFFBC /* index.js in Resources */,
+				A10D6E1A20D0ED0500ACFFBC /* LaunchScreen.storyboard in Resources */,
+				A10D6E1720D0ED0500ACFFBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DB6529183E3E7DE12431A78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMXWeexProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		669D784E874E3892B6298437 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IMXWeexProject/Pods-IMXWeexProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/IMXExtentCpt/IMXExtentCpt.framework",
+				"${BUILT_PRODUCTS_DIR}/IMXLauncher/IMXLauncher.framework",
+				"${BUILT_PRODUCTS_DIR}/IMXListView/IMXListView.framework",
+				"${BUILT_PRODUCTS_DIR}/IMXMVIP/IMXMVIP.framework",
+				"${BUILT_PRODUCTS_DIR}/IMXStyleKit/IMXStyleKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/WeexSDK/WeexSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IMXExtentCpt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IMXLauncher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IMXListView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IMXMVIP.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IMXStyleKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeTableCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WeexSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMXWeexProject/Pods-IMXWeexProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10D6E0620D0ED0300ACFFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10D6E2720D0EF6C00ACFFBC /* IMXWBaseViewController.m in Sources */,
+				A10D6E2D20D0EFC000ACFFBC /* IMXWRootUIAPPService.m in Sources */,
+				A10D6E1D20D0ED0500ACFFBC /* main.m in Sources */,
+				A10D6E3520D1081E00ACFFBC /* IMXWeexBaseViewController.m in Sources */,
+				A151290520F487C900F8706F /* IMXTransInfoModule.m in Sources */,
+				A10D6E2A20D0EF9200ACFFBC /* IMXWRootViewController.m in Sources */,
+				A10D6E4F20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.m in Sources */,
+				A10D6E3220D1060600ACFFBC /* IMXWeexManager.m in Sources */,
+				A10D6E4620D136F900ACFFBC /* IMXWeexInitAPPService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A10D6E1820D0ED0500ACFFBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10D6E1920D0ED0500ACFFBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A10D6E1E20D0ED0500ACFFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A10D6E1F20D0ED0500ACFFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10D6E2120D0ED0500ACFFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC878DFB6A6FE928B1200BA /* Pods-IMXWeexProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/$(PROJECT)-Prefix.pch";
+				INFOPLIST_FILE = IMXWeexProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.IMXWeexProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10D6E2220D0ED0500ACFFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A89BAD9B7EDB38273A5D84 /* Pods-IMXWeexProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/$(PROJECT)-Prefix.pch";
+				INFOPLIST_FILE = IMXWeexProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.IMXWeexProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10D6E0520D0ED0300ACFFBC /* Build configuration list for PBXProject "IMXWeexProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10D6E1E20D0ED0500ACFFBC /* Debug */,
+				A10D6E1F20D0ED0500ACFFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10D6E2020D0ED0500ACFFBC /* Build configuration list for PBXNativeTarget "IMXWeexProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10D6E2120D0ED0500ACFFBC /* Debug */,
+				A10D6E2220D0ED0500ACFFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10D6E0220D0ED0300ACFFBC /* Project object */;
+}

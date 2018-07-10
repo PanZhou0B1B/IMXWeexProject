@@ -1,0 +1,6 @@
+framework module IMXExtentCpt {
+  umbrella header "IMXExtentCpt-umbrella.h"
+
+  export *
+  module * { export * }
+}
