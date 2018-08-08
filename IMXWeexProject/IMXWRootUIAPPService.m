@@ -28,6 +28,7 @@ IMX_EXPORT_SERVICE(@"IMX_rootUI")
     application.delegate.window.rootViewController = self.rootNavi;
     
      [window makeKeyAndVisible];
+    
      
     return YES;
 }

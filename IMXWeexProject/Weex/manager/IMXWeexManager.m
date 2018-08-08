@@ -9,6 +9,7 @@
 #import "IMXWeexManager.h"
 #import <WeexSDK/WeexSDK.h>
 #import "WXImgLoaderDefaultImpl.h"
+#import "IMXWeexRegistUtil.h"
 
 @implementation IMXWeexManager
 
@@ -17,21 +18,16 @@
 #pragma mark ======  public  ======
 + (void)registWeex{
     //business configuration
-    [WXAppConfiguration setAppGroup:@"weexDemo"];
-    [WXAppConfiguration setAppName:@"WeexDemo"];
+    [WXAppConfiguration setAppGroup:@"DHGT"];
+    [WXAppConfiguration setAppName:@"DHGT"];
     [WXAppConfiguration setAppVersion:@"1.0.0"];
     
     //init sdk environment
     [WXSDKEngine initSDKEnvironment];
     
-    //register custom module and component，optional
-    //    [WXSDKEngine registerComponent:@"MyView" withClass:[MyViewComponent class]];
-    //    [WXSDKEngine registerModule:@"event" withClass:[WXEventModule class]];
-    
-    //register the implementation of protocol, optional
-    //[WXSDKEngine registerHandler:[WXNavigationDefaultImpl new] withProtocol:@protocol(WXNavigationProtocol)];
     [WXSDKEngine registerHandler:[WXImgLoaderDefaultImpl new] withProtocol:@protocol(WXImgLoaderProtocol)];
     
+    [IMXWeexRegistUtil registCustomExtends];
 #ifdef DEBUG
     [WXDebugTool setDebug:YES];
     [WXLog setLogLevel:WXLogLevelLog];

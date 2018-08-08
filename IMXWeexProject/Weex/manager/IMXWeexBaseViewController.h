@@ -6,15 +6,22 @@
 //  Copyright © 2018年 zhoupanpan. All rights reserved.
 //
 
-#import "IMXWBaseViewController.h"
+#import "DHgateBaseViewController.h"
+#import <WeexSDK/WeexSDK.h>
+
 typedef NS_ENUM(NSInteger, IMXWeexRenderStatus) {
     IMXWeexRenderStatusCreated,
     IMXWeexRenderStatusFailed,
     IMXWeexRenderStatusFinished,
+    IMXWeexRenderStatusrenderFinish
 };
-@interface IMXWeexBaseViewController : IMXWBaseViewController
+@interface IMXWeexBaseViewController : DHgateBaseViewController
+@property (nonatomic,strong)WXSDKInstance *weexInstance;
 @property (nonatomic, copy) void(^weexRenderBlock)(IMXWeexRenderStatus status,NSError *error);
 
 - (void)weexConfig:(CGRect)frame superView:(UIView *)sView;
 - (void)weexLoadUrl:(NSURL *)url;
+- (void)weexLoadUrl:(NSURL *)url data:(id)data;
+- (void)weexForceReload;
+- (void)weexRefreshData:(id)data;
 @end

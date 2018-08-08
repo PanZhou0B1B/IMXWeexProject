@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"root ctrl";
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
     [self weexConfig:self.view.bounds superView:self.view];
     
     

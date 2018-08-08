@@ -21,6 +21,13 @@
 		A10D6E4F20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D6E4D20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.m */; };
 		A151290520F487C900F8706F /* IMXTransInfoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A151290420F487C900F8706F /* IMXTransInfoModule.m */; };
 		A151290920F4962200F8706F /* IMXCustomComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A151290820F4962200F8706F /* IMXCustomComponent.m */; };
+		A1D134AE20FC7FB400CCD860 /* AFImageDownloader+WXImgLoaderKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D134AD20FC7FB400CCD860 /* AFImageDownloader+WXImgLoaderKit.m */; };
+		A1EC2F51211AFD350081E450 /* IMXWeexDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EC2F42211AFD340081E450 /* IMXWeexDebugViewController.m */; };
+		A1EC2F52211AFD350081E450 /* IMXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EC2F46211AFD340081E450 /* IMXScanViewController.m */; };
+		A1EC2F53211AFD350081E450 /* IMXScanUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EC2F48211AFD340081E450 /* IMXScanUtil.m */; };
+		A1EC2F54211AFD350081E450 /* IMXScanBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EC2F4B211AFD340081E450 /* IMXScanBuilder.m */; };
+		A1EC2F55211AFD350081E450 /* IMXScanHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EC2F4F211AFD340081E450 /* IMXScanHelper.m */; };
+		A1EC2F58211AFECE0081E450 /* IMXWeexRegistUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EC2F56211AFECE0081E450 /* IMXWeexRegistUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +57,20 @@
 		A151290420F487C900F8706F /* IMXTransInfoModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXTransInfoModule.m; sourceTree = "<group>"; };
 		A151290720F4962200F8706F /* IMXCustomComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXCustomComponent.h; sourceTree = "<group>"; };
 		A151290820F4962200F8706F /* IMXCustomComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXCustomComponent.m; sourceTree = "<group>"; };
+		A1D134AC20FC7FB400CCD860 /* AFImageDownloader+WXImgLoaderKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFImageDownloader+WXImgLoaderKit.h"; sourceTree = "<group>"; };
+		A1D134AD20FC7FB400CCD860 /* AFImageDownloader+WXImgLoaderKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFImageDownloader+WXImgLoaderKit.m"; sourceTree = "<group>"; };
+		A1EC2F42211AFD340081E450 /* IMXWeexDebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXWeexDebugViewController.m; sourceTree = "<group>"; };
+		A1EC2F45211AFD340081E450 /* IMXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXScanViewController.h; sourceTree = "<group>"; };
+		A1EC2F46211AFD340081E450 /* IMXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXScanViewController.m; sourceTree = "<group>"; };
+		A1EC2F48211AFD340081E450 /* IMXScanUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXScanUtil.m; sourceTree = "<group>"; };
+		A1EC2F49211AFD340081E450 /* IMXScanUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXScanUtil.h; sourceTree = "<group>"; };
+		A1EC2F4B211AFD340081E450 /* IMXScanBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXScanBuilder.m; sourceTree = "<group>"; };
+		A1EC2F4C211AFD340081E450 /* IMXScanBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXScanBuilder.h; sourceTree = "<group>"; };
+		A1EC2F4E211AFD340081E450 /* IMXScanHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXScanHelper.h; sourceTree = "<group>"; };
+		A1EC2F4F211AFD340081E450 /* IMXScanHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXScanHelper.m; sourceTree = "<group>"; };
+		A1EC2F50211AFD340081E450 /* IMXWeexDebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXWeexDebugViewController.h; sourceTree = "<group>"; };
+		A1EC2F56211AFECE0081E450 /* IMXWeexRegistUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXWeexRegistUtil.m; sourceTree = "<group>"; };
+		A1EC2F57211AFECE0081E450 /* IMXWeexRegistUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXWeexRegistUtil.h; sourceTree = "<group>"; };
 		C5A89BAD9B7EDB38273A5D84 /* Pods-IMXWeexProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMXWeexProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMXWeexProject/Pods-IMXWeexProject.release.xcconfig"; sourceTree = "<group>"; };
 		DFC878DFB6A6FE928B1200BA /* Pods-IMXWeexProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMXWeexProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMXWeexProject/Pods-IMXWeexProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,15 +144,9 @@
 		A10D6E2F20D105D800ACFFBC /* Weex */ = {
 			isa = PBXGroup;
 			children = (
-				A151290620F4951D00F8706F /* Component */,
-				A151290220F487A400F8706F /* Module */,
-				A10D6E4C20D1FA5300ACFFBC /* Handle */,
-				A10D6E3020D1060600ACFFBC /* IMXWeexManager.h */,
-				A10D6E3120D1060600ACFFBC /* IMXWeexManager.m */,
-				A10D6E3320D1081E00ACFFBC /* IMXWeexBaseViewController.h */,
-				A10D6E3420D1081E00ACFFBC /* IMXWeexBaseViewController.m */,
-				A10D6E4420D136F900ACFFBC /* IMXWeexInitAPPService.h */,
-				A10D6E4520D136F900ACFFBC /* IMXWeexInitAPPService.m */,
+				A1D134BA20FD97B500CCD860 /* bundle */,
+				A1D134B920FD979600CCD860 /* manager */,
+				A1D134B720FD972100CCD860 /* extend */,
 			);
 			path = Weex;
 			sourceTree = "<group>";
@@ -144,31 +159,155 @@
 			path = JSSources;
 			sourceTree = "<group>";
 		};
-		A10D6E4C20D1FA5300ACFFBC /* Handle */ = {
-			isa = PBXGroup;
-			children = (
-				A10D6E4E20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.h */,
-				A10D6E4D20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.m */,
-			);
-			path = Handle;
-			sourceTree = "<group>";
-		};
-		A151290220F487A400F8706F /* Module */ = {
+		A151290220F487A400F8706F /* module */ = {
 			isa = PBXGroup;
 			children = (
 				A151290320F487C900F8706F /* IMXTransInfoModule.h */,
 				A151290420F487C900F8706F /* IMXTransInfoModule.m */,
 			);
-			path = Module;
+			path = module;
 			sourceTree = "<group>";
 		};
-		A151290620F4951D00F8706F /* Component */ = {
+		A151290620F4951D00F8706F /* component */ = {
 			isa = PBXGroup;
 			children = (
 				A151290720F4962200F8706F /* IMXCustomComponent.h */,
 				A151290820F4962200F8706F /* IMXCustomComponent.m */,
 			);
-			path = Component;
+			path = component;
+			sourceTree = "<group>";
+		};
+		A1D134B720FD972100CCD860 /* extend */ = {
+			isa = PBXGroup;
+			children = (
+				A1EC2F57211AFECE0081E450 /* IMXWeexRegistUtil.h */,
+				A1EC2F56211AFECE0081E450 /* IMXWeexRegistUtil.m */,
+				A1D134B820FD975900CCD860 /* handler */,
+				A151290220F487A400F8706F /* module */,
+				A151290620F4951D00F8706F /* component */,
+			);
+			path = extend;
+			sourceTree = "<group>";
+		};
+		A1D134B820FD975900CCD860 /* handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = handler;
+			sourceTree = "<group>";
+		};
+		A1D134B920FD979600CCD860 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				A1EC2F3E211AFCC60081E450 /* extend */,
+				A1EC2F3D211AFCBB0081E450 /* debug */,
+				A10D6E3020D1060600ACFFBC /* IMXWeexManager.h */,
+				A10D6E3120D1060600ACFFBC /* IMXWeexManager.m */,
+				A10D6E3320D1081E00ACFFBC /* IMXWeexBaseViewController.h */,
+				A10D6E3420D1081E00ACFFBC /* IMXWeexBaseViewController.m */,
+				A10D6E4420D136F900ACFFBC /* IMXWeexInitAPPService.h */,
+				A10D6E4520D136F900ACFFBC /* IMXWeexInitAPPService.m */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		A1D134BA20FD97B500CCD860 /* bundle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = bundle;
+			sourceTree = "<group>";
+		};
+		A1EC2F3D211AFCBB0081E450 /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				A1EC2F43211AFD340081E450 /* IMXScanKit */,
+				A1EC2F50211AFD340081E450 /* IMXWeexDebugViewController.h */,
+				A1EC2F42211AFD340081E450 /* IMXWeexDebugViewController.m */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		A1EC2F3E211AFCC60081E450 /* extend */ = {
+			isa = PBXGroup;
+			children = (
+				A1EC2F41211AFD090081E450 /* handler */,
+				A1EC2F40211AFCFE0081E450 /* module */,
+				A1EC2F3F211AFCF40081E450 /* component */,
+			);
+			path = extend;
+			sourceTree = "<group>";
+		};
+		A1EC2F3F211AFCF40081E450 /* component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		A1EC2F40211AFCFE0081E450 /* module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		A1EC2F41211AFD090081E450 /* handler */ = {
+			isa = PBXGroup;
+			children = (
+				A10D6E4E20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.h */,
+				A10D6E4D20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.m */,
+				A1D134AC20FC7FB400CCD860 /* AFImageDownloader+WXImgLoaderKit.h */,
+				A1D134AD20FC7FB400CCD860 /* AFImageDownloader+WXImgLoaderKit.m */,
+			);
+			path = handler;
+			sourceTree = "<group>";
+		};
+		A1EC2F43211AFD340081E450 /* IMXScanKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1EC2F44211AFD340081E450 /* UI */,
+				A1EC2F47211AFD340081E450 /* util */,
+				A1EC2F4A211AFD340081E450 /* builder */,
+				A1EC2F4D211AFD340081E450 /* helper */,
+			);
+			path = IMXScanKit;
+			sourceTree = "<group>";
+		};
+		A1EC2F44211AFD340081E450 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A1EC2F45211AFD340081E450 /* IMXScanViewController.h */,
+				A1EC2F46211AFD340081E450 /* IMXScanViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A1EC2F47211AFD340081E450 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				A1EC2F48211AFD340081E450 /* IMXScanUtil.m */,
+				A1EC2F49211AFD340081E450 /* IMXScanUtil.h */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		A1EC2F4A211AFD340081E450 /* builder */ = {
+			isa = PBXGroup;
+			children = (
+				A1EC2F4B211AFD340081E450 /* IMXScanBuilder.m */,
+				A1EC2F4C211AFD340081E450 /* IMXScanBuilder.h */,
+			);
+			path = builder;
+			sourceTree = "<group>";
+		};
+		A1EC2F4D211AFD340081E450 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				A1EC2F4E211AFD340081E450 /* IMXScanHelper.h */,
+				A1EC2F4F211AFD340081E450 /* IMXScanHelper.m */,
+			);
+			path = helper;
 			sourceTree = "<group>";
 		};
 		B5CF73C1D064848626EABE11 /* Pods */ = {
@@ -322,13 +461,20 @@
 				A10D6E2720D0EF6C00ACFFBC /* IMXWBaseViewController.m in Sources */,
 				A151290920F4962200F8706F /* IMXCustomComponent.m in Sources */,
 				A10D6E2D20D0EFC000ACFFBC /* IMXWRootUIAPPService.m in Sources */,
+				A1EC2F53211AFD350081E450 /* IMXScanUtil.m in Sources */,
 				A10D6E1D20D0ED0500ACFFBC /* main.m in Sources */,
+				A1EC2F51211AFD350081E450 /* IMXWeexDebugViewController.m in Sources */,
+				A1EC2F58211AFECE0081E450 /* IMXWeexRegistUtil.m in Sources */,
+				A1EC2F54211AFD350081E450 /* IMXScanBuilder.m in Sources */,
 				A10D6E3520D1081E00ACFFBC /* IMXWeexBaseViewController.m in Sources */,
 				A151290520F487C900F8706F /* IMXTransInfoModule.m in Sources */,
 				A10D6E2A20D0EF9200ACFFBC /* IMXWRootViewController.m in Sources */,
+				A1D134AE20FC7FB400CCD860 /* AFImageDownloader+WXImgLoaderKit.m in Sources */,
 				A10D6E4F20D1FA5E00ACFFBC /* WXImgLoaderDefaultImpl.m in Sources */,
 				A10D6E3220D1060600ACFFBC /* IMXWeexManager.m in Sources */,
+				A1EC2F55211AFD350081E450 /* IMXScanHelper.m in Sources */,
 				A10D6E4620D136F900ACFFBC /* IMXWeexInitAPPService.m in Sources */,
+				A1EC2F52211AFD350081E450 /* IMXScanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
