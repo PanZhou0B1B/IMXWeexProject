@@ -34,6 +34,7 @@ PODS:
     - IMXMVIP/Presenter (= 1.0.0)
   - IMXMVIP/Interactor (1.0.0)
   - IMXMVIP/Presenter (1.0.0)
+  - IMXSafeAreaKit (1.0.0)
   - IMXStyleKit (1.0.0):
     - IMXStyleKit/IMXColor (= 1.0.0)
     - IMXStyleKit/IMXFont (= 1.0.0)
@@ -57,6 +58,7 @@ DEPENDENCIES:
   - IMXLauncher (~> 1.0.0)
   - IMXListView (~> 1.0.0)
   - IMXMVIP (~> 1.0.0)
+  - IMXSafeAreaKit (~> 1.0.0)
   - IMXStyleKit (~> 1.0.0)
   - Masonry (= 1.1.0)
   - MBProgressHUD (= 1.1.0)
@@ -75,6 +77,7 @@ SPEC REPOS:
     - IMXLauncher
     - IMXListView
     - IMXMVIP
+    - IMXSafeAreaKit
     - IMXStyleKit
     - Masonry
     - MBProgressHUD
@@ -92,6 +95,7 @@ SPEC CHECKSUMS:
   IMXLauncher: 57a42f9ed3ba945afedea8ca04d04578d8f5a982
   IMXListView: 63e908569c98d1b2e7fbf2b68a489b1fe0375ff5
   IMXMVIP: a87ed2363fc6a2a64ed63e210df81cfea84c089a
+  IMXSafeAreaKit: e89d183880ae515f2158c688c4e257e2547e87a8
   IMXStyleKit: ab367050c3a269b1a132666ae0c6a6b5a0ae28ed
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
@@ -101,6 +105,6 @@ SPEC CHECKSUMS:
   TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
   WeexSDK: ac56f255ce9a48e93ebc2e003956ab20da33321d
 
-PODFILE CHECKSUM: e2063ff22476bbaa4226311206e4eb95f9bb45b3
+PODFILE CHECKSUM: e504b71b4b715c7828df392f7728c225f360a653
 
 COCOAPODS: 1.5.3

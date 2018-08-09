@@ -9,6 +9,7 @@
 #import "IMXWeexDebugViewController.h"
 #import <WeexSDK/WeexSDK.h>
 #import <IMXExtentCpt/IMXUIKitExtUtil.h>
+#import <IMXSafeAreaKit/IMXSafeAreaKit.h>
 
 @interface IMXWeexDebugViewController ()
 @property (nonatomic,strong)WXSDKInstance *weexInstance;

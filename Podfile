@@ -21,5 +21,6 @@ pod 'IMXListView', '~> 1.0.0'
 pod 'IMXStyleKit', '~> 1.0.0'
 pod 'IMXMVIP', '~> 1.0.0'
 pod 'IMXExtentCpt', '~> 1.0.0'
+pod 'IMXSafeAreaKit', '~> 1.0.0'
 
 end
